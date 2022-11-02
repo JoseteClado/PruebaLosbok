@@ -1,0 +1,232 @@
+@font-face {
+    font-family: brotherBold;
+    src: url(../fonts/Bold.woff2);;
+}
+
+@font-face {
+    font-family: brotherRegular;
+    src: url(../fonts/Regular.woff2);
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: brotherBold;
+    font-size: 35px;}
+
+body{
+    background-color: #687B79;
+    box-sizing: border-box;
+    padding: 60px 90px;
+}
+
+.container{
+    max-width: 1920px;
+    background-color: #F2F4F1;
+}
+
+    /* NAVBAR */
+nav{
+    
+    height: 800px;
+    background-image: url(../imagenes/Rectangle\ 8\ \(1\).webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: brotherRegular;
+}
+
+.navbar>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+.icono{
+    width: 70%;
+    padding-top: 25px;
+    font-family: brotherRegular;
+}
+
+.element{
+    padding-top: 25px;
+}
+
+.subscribe{
+    margin-top: 16px;
+    padding: 8px 12px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+/* LETRAS DEL TITULO */
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    font-size: 85px;
+    font-family: brotherRegular;
+}
+
+.latest_articles{
+    
+    box-sizing: border-box;
+    padding-top: 30px;
+    background-color: #E9EAE8;
+}
+.contenedorImg{
+    padding: 30px 0 30px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 180px;
+}
+
+.caja{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+figure{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    padding-bottom: 100px;
+}
+
+
+.figure1>img{
+    
+    width: 350px;
+    height: 255px;
+    
+}
+.figure2>img{
+    width: 350px;
+    height: 255px
+}
+.figure3>img{
+    width: 350px;
+    height: 255px
+}
+
+figure>hr{
+    margin-top: 80px;
+}
+
+figcaption{
+    font-family: brotherRegular;
+    text-align: center;
+   
+}
+.imagenGrande{
+    
+}
+.imagenGrande>figure{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.FigureimagenFlorecilla{
+    display: flex;
+ 
+}
+
+.FigureimagenFlorecilla>img{
+    width: 2000px;
+    height: 100%;
+}
+
+.letras{
+    
+    padding-top: 75px;
+    
+}
+
+.captionAbout{
+    box-sizing: border-box;
+    text-align: justify;
+    padding: 0 60px;    
+}
+
+.Sectionformulario{
+    padding-top: 100px;
+    background-color: #D7DBD6;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+.Sectionformulario>h2{
+    margin: 0;
+    text-align: center;
+}
+
+.Sectionformulario>h3{
+    text-align: center;
+    font-family: brotherRegular;
+}
+
+.formulario{
+    margin-top: 40px;
+    padding-bottom: 65px;
+}
+
+.formulario>input{
+    height: 50px;
+    width: 700px;
+    margin-left: 500px;
+    padding-left: 40px;
+    outline:none;
+    
+}
+
+.botonForm{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px 30px;
+    margin-left: 800px;
+    font-family: brotherRegular;
+}
+
+footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.navbarFooter{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: brotherRegular;
+}
+
+.iconos{
+    
+    padding-top: 25px;
+    font-family: brotherRegular;
+}
+
+.icono1{
+    padding-top: 25px;
+    width: 40%;
+}
